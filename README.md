@@ -8,7 +8,7 @@ which when used to watch a living database resembles the "Towers of Hanoi"
 puzzle game, which inspired the name of this database.
 
 ## Features
-- Insert, Delete and Read all have worst case *O*(log<sub>2</sub>(*N*)) latency.
+- Insert, Delete and Read all have worst case *O*(log<sub>2</sub>( *N* )) latency.
 - Incremental space reclaimation: The cost of evicting stale key/values
   is amortized into insertion
   - you don't need a separate eviction thread to keep memory use low
